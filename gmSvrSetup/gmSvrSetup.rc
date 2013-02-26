@@ -1,0 +1,167 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_WELCOME DIALOGEX 0, 0, 380, 281
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "更新系统-简介"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "下一步",IDOK,262,260,50,14,WS_GROUP
+    PUSHBUTTON      "取消",IDCANCLE,323,260,50,14,WS_GROUP
+    EDITTEXT        IDC_WELCOME,7,7,366,247,ES_MULTILINE | ES_READONLY | WS_VSCROLL
+END
+
+IDD_SETUP_SERVER DIALOGEX 0, 0, 278, 219
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "服务器-安装"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "选择安装目录:",IDC_STATIC,7,7,70,8
+    EDITTEXT        IDC_PATH,7,20,238,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "..",IDC_BROWSE,251,19,20,14
+    LTEXT           "监听端口号:",IDC_STATIC,7,41,52,8
+    EDITTEXT        IDC_PORT,60,39,55,12,ES_AUTOHSCROLL
+    LTEXT           "下载客户端通过此端口访问服务器获取Idx文件和节点信息",IDC_STATIC,124,37,146,17
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,63,263,1
+    LTEXT           "服务器将以Windows服务的方式运行，服务名为gmSvr。",IDC_STATIC,7,75,263,8
+    LTEXT           "服务器将在安装目录下创建子目录，用于存储gmIdx文件。",IDC_STATIC,7,90,263,8
+    LTEXT           "新系统里没有任何gmIdx文件，安装客户端并上传资源，才会有数据文件。",IDC_STATIC,7,100,263,8
+    LTEXT           "请记住此服务器的IP地址和端口号，此信息是安装客户端所必须的。",IDC_STATIC,7,116,264,8
+    LTEXT           "安装程序可以定制为固定的服务器IP:端口，这样此后的客户端安装可以不需要用户输入。定制事项请联系QQ:691833901",IDC_STATIC,7,132,264,17
+    LTEXT           "服务器提供IDX文件管理和节点管理功能，下载客户端必须能够正常访问服务器才能工作。客户端需要定时更新IDX列表、下载单个IDX文件，并获取节点数据，这些服务都是由服务器提供。",IDC_STATIC,7,156,263,28
+    PUSHBUTTON      "移除之前的安装",IDC_REMOVE,7,198,85,14,WS_GROUP
+    DEFPUSHBUTTON   "安装",IDOK,145,198,67,14,WS_GROUP
+    PUSHBUTTON      "取消",IDCANCEL,221,198,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_WELCOME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 373
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 274
+    END
+
+    IDD_SETUP_SERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 212
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// FILE
+//
+
+SVR                     FILE                    "C:\\gmDev\\gmSvr\\Release\\gmSvr.exe"
+INTRO                   FILE                    "C:\\gmDev\\gmSetup\\intro.txt"
+SVRUI                   FILE                    "C:\\gmDev\\gmSvrUI\\Release\\gmSvrUI.exe"
+UNINSTALL               FILE                    "Release\\uninstall.exe"
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_GMSVRSETUP          ICON                    "gmSvrSetup.ico"
+IDI_SMALL               ICON                    "small.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="zlib-1.2.5">
+      <UniqueIdentifier>{74afce6f-8ad5-4d1f-82c8-691a0c70f108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="share">
+      <UniqueIdentifier>{8d9927a6-025e-4077-9f44-aab854360ad2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gmSvr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\adler32.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\compress.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\crc32.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\deflate.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\infback.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\inffast.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\inflate.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\inftrees.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\trees.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\uncompr.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\zutil.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\arc4.c">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\base64.c">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\BugDump.c">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\debugf.c">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\helper.c">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\idx.c">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\ntSvc.c">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\sha1.c">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\tcp.c">
+      <Filter>share</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gmSvr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\crc32.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\deflate.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\gzguts.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\inffast.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\inffixed.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\inflate.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\inftrees.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\trees.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\zconf.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\zlib.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\zutil.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\arc4.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\base64.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\BugDump.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\debugf.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\helper.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\idx.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\ntSvc.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\ptrArray.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\ptrList.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\sha1.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\tcp.h">
+      <Filter>share</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

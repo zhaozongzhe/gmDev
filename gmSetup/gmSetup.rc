@@ -1,0 +1,203 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SETUP_CLIENT DIALOGEX 0, 0, 303, 223
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "客户端-安装"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "安装目录:",IDC_STATIC,7,10,52,8
+    EDITTEXT        IDC_PATH,59,8,214,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "..",IDC_BROWSE,276,7,20,14
+    LTEXT           "服务器地址:",IDC_STATIC,7,27,52,8
+    EDITTEXT        IDC_ADDR,59,25,96,12,ES_AUTOHSCROLL
+    LTEXT           "服务器的IP地址和端口号，格式为192.168.0.1:8080",IDC_STATIC,158,24,138,17
+    LTEXT           "监听端口号:",IDC_STATIC,7,45,52,8
+    EDITTEXT        IDC_PORT,59,43,41,12,ES_AUTOHSCROLL
+    LTEXT           "本机TCP端口号，通过此端口与互联网其它节点交换数据、并向gmUI界面程序提供服务。",IDC_STATIC,104,41,192,17
+    LTEXT           "数据目录:",IDC_STATIC,7,64,52,8
+    EDITTEXT        IDC_PATH2,59,62,214,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "..",IDC_BROWSE2,276,60,20,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,83,289,1
+    LTEXT           "客户端包含一个服务和一个界面控制程序。",IDC_STATIC,7,94,289,8
+    LTEXT           "下载服务的名称为gmCore，它完成所有网络操作和文件操作。",IDC_STATIC,7,109,289,8
+    LTEXT           "界面程序(gmUI.exe)用于操作服务的下载动作、显示服务的工作状等。",IDC_STATIC,7,125,289,8
+    LTEXT           "安装时使用一些默认的配置，比如限速为5M，您可以在安装完成以后使用gmUI程序进行更详细的系统配置。",IDC_STATIC,7,140,289,17
+    LTEXT           "请确认服务器的IP地址和端口号，并确定该服务器工作正常。",IDC_STATIC,7,165,289,8
+    LTEXT           "安装程序可以定制为固定的服务器IP:端口，这样此后的客户端安装可以不需要用户输入。定制事项请联系QQ:691833901",IDC_STATIC,7,175,289,17
+    PUSHBUTTON      "移除之前的安装",IDC_REMOVE,7,202,93,14
+    DEFPUSHBUTTON   "安装",IDOK,147,202,61,14,WS_GROUP
+    PUSHBUTTON      "取消",IDCANCEL,246,202,50,14
+END
+
+IDD_WELCOME DIALOGEX 0, 0, 380, 281
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "安装程序 - 欢迎"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "下一步",IDOK,255,260,50,14
+    PUSHBUTTON      "退出",IDCANCEL,319,260,45,14
+    EDITTEXT        IDC_WELCOME,7,7,366,250,ES_MULTILINE | ES_READONLY | WS_VSCROLL | NOT WS_TABSTOP
+END
+
+IDD_INSTALL DIALOGEX 0, 0, 380, 281
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "退出",IDCANCEL,319,260,45,14
+END
+
+IDD_REMOVE DIALOGEX 0, 0, 380, 281
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "退出",IDCANCEL,319,260,45,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_SETUP_CLIENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 296
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 216
+    END
+
+    IDD_WELCOME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 373
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 274
+    END
+
+    IDD_INSTALL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 373
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 274
+    END
+
+    IDD_REMOVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 373
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 274
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_GMSETUP             ICON                    "gmSetup.ico"
+IDI_SMALL               ICON                    "small.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// FILE
+//
+
+CORE                    FILE                    "C:\\gmDev\\gmCore\\Release\\gmCore.exe"
+UI                      FILE                    "C:\\gmDev\\gmUI\\Release\\gmUI.exe"
+INTRO                   FILE                    "intro.txt"
+UNINSTALL               FILE                    "C:\\gmDev\\gmSetup\\Release\\uninstall.exe"
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

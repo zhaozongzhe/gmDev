@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="gmUI">
+</Property><Property Name="解决方案文件" Value="C:\gmDev\gmUI\gmUI.sln">
+</Property><Property Name="用户选项文件" Value="C:\gmDev\gmUI\gmUI.suo">
+</Property><Property Name="Date" Value="2013年2月5日">
+</Property><Property Name="Time" Value="22:40">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="gmUI.sln" Description="文件已成功备份为 C:\gmDev\gmUI\gmUI.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="gmUI.suo" Description="文件已成功备份为 C:\gmDev\gmUI\gmUI.suo.old">
+</Event><Event ErrorLevel="0" Project="gmUI" Source="gmUI.vcproj" Description="Converting project file 'C:\gmDev\gmUI\gmUI.vcproj'.">
+</Event><Event ErrorLevel="1" Project="gmUI" Source="gmUI.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="gmUI" Source="gmUI.vcproj" Description="Done converting to new project file 'C:\gmDev\gmUI\gmUI.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="gmUI" Source="gmUI.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="gmUI.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="gmUI.sln" Description="Converted">
+</Event></UpgradeLog>

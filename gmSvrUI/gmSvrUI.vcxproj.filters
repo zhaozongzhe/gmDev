@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="share">
+      <UniqueIdentifier>{e5955e68-7444-4100-8d2d-3e130914002c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mxml-2.7">
+      <UniqueIdentifier>{c17bca03-eea3-4c47-a8b5-336b422b9db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib-1.2.5">
+      <UniqueIdentifier>{8ebc36ab-2792-4ea8-a177-d578c38c325b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gmSvrUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\arc4.c">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\base64.c">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\BugDump.c">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\debugf.c">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\helper.c">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\idx.c">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\share\sha1.c">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mxml-2.7\mxml-attr.c">
+      <Filter>mxml-2.7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mxml-2.7\mxml-entity.c">
+      <Filter>mxml-2.7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mxml-2.7\mxml-file.c">
+      <Filter>mxml-2.7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mxml-2.7\mxml-get.c">
+      <Filter>mxml-2.7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mxml-2.7\mxml-index.c">
+      <Filter>mxml-2.7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mxml-2.7\mxml-node.c">
+      <Filter>mxml-2.7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mxml-2.7\mxml-private.c">
+      <Filter>mxml-2.7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mxml-2.7\mxml-search.c">
+      <Filter>mxml-2.7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mxml-2.7\mxml-set.c">
+      <Filter>mxml-2.7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mxml-2.7\mxml-string.c">
+      <Filter>mxml-2.7</Filter>
+    </ClCompile>
+    <ClCompile Include="adminSock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\adler32.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\compress.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\crc32.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\deflate.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\infback.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\inffast.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\inflate.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\inftrees.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\trees.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\uncompr.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.5\zutil.c">
+      <Filter>zlib-1.2.5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gmSvrUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\arc4.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\base64.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\BugDump.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\debugf.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\helper.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\idx.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\ptrArray.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\ptrList.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\share\sha1.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mxml-2.7\config.h">
+      <Filter>mxml-2.7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mxml-2.7\mxml-private.h">
+      <Filter>mxml-2.7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mxml-2.7\mxml.h">
+      <Filter>mxml-2.7</Filter>
+    </ClInclude>
+    <ClInclude Include="adminSock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\crc32.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\deflate.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\gzguts.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\inffast.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\inffixed.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\inflate.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\inftrees.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\trees.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\zconf.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\zlib.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.5\zutil.h">
+      <Filter>zlib-1.2.5</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gmSvrUI.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="gmSvrUI.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

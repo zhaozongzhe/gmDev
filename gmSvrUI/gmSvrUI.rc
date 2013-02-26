@@ -1,0 +1,185 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_GMSVRUI             ICON                    "gmSvrUI.ico"
+IDI_SMALL               ICON                    "small.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_GMSVRUI MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "退出(&X)",                      IDM_EXIT
+    END
+    POPUP "工具(&T)"
+    BEGIN
+        MENUITEM "选项(&O)",                      IDM_OPTIONS
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于(&A) ...",                  IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 171, 95
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 gmSvrUI"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            128,IDC_STATIC,14,14,20,20
+    LTEXT           "gmSvrUI，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2012",IDC_STATIC,42,26,114,8
+    LTEXT           "691833901@qq.com",IDC_STATIC,42,39,114,8,SS_NOPREFIX
+    DEFPUSHBUTTON   "确定",IDOK,114,74,50,14,WS_GROUP
+END
+
+IDD_OPTIONS DIALOGEX 0, 0, 187, 242
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选项"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "监听端口:",IDC_STATIC,7,9,37,8
+    EDITTEXT        IDC_PORT,43,7,60,12,ES_AUTOHSCROLL
+    LTEXT           "访问时间间隔:",IDC_STATIC,7,24,51,8
+    EDITTEXT        IDC_INTERVAL,56,22,47,12,ES_AUTOHSCROLL
+    LTEXT           "秒",IDC_STATIC,105,24,8,8
+    LTEXT           "上传密码:",IDC_STATIC,7,44,37,8
+    EDITTEXT        IDC_PWD,43,42,60,12,ES_AUTOHSCROLL
+    LTEXT           "上传IP限制:(仅列表中的IP可以上传，格式ip;ip;....)",IDC_STATIC,7,57,173,8
+    EDITTEXT        IDC_IPS,7,68,173,12,ES_AUTOHSCROLL
+    LTEXT           "专门的供种服务器(缺种时唤醒、有上传时自动更新):",IDC_STATIC,7,87,173,8
+    EDITTEXT        IDC_SERVERS,7,98,173,120,ES_MULTILINE | ES_WANTRETURN | WS_VSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,75,221,50,14,WS_GROUP
+    PUSHBUTTON      "取消",IDCANCEL,132,221,48,14
+END
+
+IDD_PEERS DIALOGEX 0, 0, 195, 250
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "节点"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_PEERS,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,7,181,219
+    DEFPUSHBUTTON   "关闭",IDOK,138,229,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 164
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 235
+    END
+
+    IDD_PEERS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 188
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 243
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

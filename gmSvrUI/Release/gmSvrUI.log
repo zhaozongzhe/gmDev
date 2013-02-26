@@ -1,0 +1,85 @@
+﻿生成启动时间为 2013/2/26 15:33:36。
+     1>项目“C:\gmDev\gmSvrUI\gmSvrUI.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\gmSvrUI.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\share /I"..\mxml-2.7" /I"..\zlib-1.2.5" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "..\zlib-1.2.5\adler32.c" "..\zlib-1.2.5\compress.c" "..\zlib-1.2.5\crc32.c" "..\zlib-1.2.5\deflate.c" "..\zlib-1.2.5\infback.c" "..\zlib-1.2.5\inffast.c" "..\zlib-1.2.5\inflate.c" "..\zlib-1.2.5\inftrees.c" "..\zlib-1.2.5\trees.c" "..\zlib-1.2.5\uncompr.c" "..\zlib-1.2.5\zutil.c" adminSock.c ..\share\arc4.c ..\share\base64.c ..\share\BugDump.c ..\share\debugf.c ..\share\helper.c ..\share\idx.c ..\share\sha1.c "..\mxml-2.7\mxml-attr.c" "..\mxml-2.7\mxml-entity.c" "..\mxml-2.7\mxml-file.c" "..\mxml-2.7\mxml-get.c" "..\mxml-2.7\mxml-index.c" "..\mxml-2.7\mxml-node.c" "..\mxml-2.7\mxml-private.c" "..\mxml-2.7\mxml-search.c" "..\mxml-2.7\mxml-set.c" "..\mxml-2.7\mxml-string.c"
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+         adminSock.c
+         arc4.c
+         base64.c
+         BugDump.c
+         debugf.c
+         helper.c
+         idx.c
+         sha1.c
+         mxml-attr.c
+         正在编译...
+         mxml-entity.c
+         mxml-file.c
+         mxml-get.c
+         mxml-index.c
+         mxml-node.c
+         mxml-private.c
+         mxml-search.c
+         mxml-set.c
+         mxml-string.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\share /I"..\mxml-2.7" /I"..\zlib-1.2.5" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt gmSvrUI.cpp
+         gmSvrUI.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\gmSvrUI.res" gmSvrUI.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\gmDev\gmSvrUI\Release\gmSvrUI.exe" /INCREMENTAL:NO /NOLOGO Comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\gmSvrUI.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\gmDev\gmSvrUI\Release\gmSvrUI.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\gmDev\gmSvrUI\Release\gmSvrUI.lib" /MACHINE:X86 Release\gmSvrUI.res
+         Release\adler32.obj
+         Release\compress.obj
+         Release\crc32.obj
+         Release\deflate.obj
+         Release\infback.obj
+         Release\inffast.obj
+         Release\inflate.obj
+         Release\inftrees.obj
+         Release\trees.obj
+         Release\uncompr.obj
+         Release\zutil.obj
+         Release\adminSock.obj
+         Release\gmSvrUI.obj
+         Release\arc4.obj
+         Release\base64.obj
+         Release\BugDump.obj
+         Release\debugf.obj
+         Release\helper.obj
+         Release\idx.obj
+         Release\sha1.obj
+         "Release\mxml-attr.obj"
+         "Release\mxml-entity.obj"
+         "Release\mxml-file.obj"
+         "Release\mxml-get.obj"
+         "Release\mxml-index.obj"
+         "Release\mxml-node.obj"
+         "Release\mxml-private.obj"
+         "Release\mxml-search.obj"
+         "Release\mxml-set.obj"
+         "Release\mxml-string.obj"
+         正在生成代码
+         已完成代码的生成
+         gmSvrUI.vcxproj -> C:\gmDev\gmSvrUI\Release\gmSvrUI.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\gmDev\gmSvrUI\Release\gmSvrUI.exe;#1" /manifest Release\gmSvrUI.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\gmSvrUI.unsuccessfulbuild”。
+         正在对“Release\gmSvrUI.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\gmDev\gmSvrUI\gmSvrUI.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.98
